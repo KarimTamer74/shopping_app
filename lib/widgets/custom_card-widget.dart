@@ -71,6 +71,7 @@ class _CustomCardState extends State<CustomCard> {
                               color: const Color.fromARGB(231, 0, 0, 0)),
                         ),
                         IconButton(
+                            tooltip: 'add to favorites',
                             onPressed: () {
                               int id = widget.product.id;
                               // Navigator.pushNamed(context, 'favorites',

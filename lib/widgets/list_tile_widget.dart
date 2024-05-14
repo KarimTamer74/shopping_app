@@ -10,13 +10,13 @@ class ListTileWidget extends StatelessWidget {
         leading: Icon(
           icon,
           size: 35,
-          color: Colors.blueGrey,
+          color: Colors.blueGrey.shade300,
         ),
         title: Text(
           '$text',
           style: TextStyle(
             color: Colors.white,
-            fontSize: 30,
+            fontSize: 25,
           ),
         ));
   }
