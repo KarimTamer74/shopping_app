@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "531227693637",
+    "project_id": "shopping-app-bdb9f",
+    "storage_bucket": "shopping-app-bdb9f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531227693637:android:fb2c17c460cf96c8d4092c",
+        "android_client_info": {
+          "package_name": "com.example.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNuztSbaSji8Jqkbdhd8V4b_6Vx98TGRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531227693637:android:dd78f0b9aa0d0365d4092c",
+        "android_client_info": {
+          "package_name": "com.example.shopping_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNuztSbaSji8Jqkbdhd8V4b_6Vx98TGRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531227693637:android:6d4c60d42ed87fdfd4092c",
+        "android_client_info": {
+          "package_name": "com.example.sw_project"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNuztSbaSji8Jqkbdhd8V4b_6Vx98TGRA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
