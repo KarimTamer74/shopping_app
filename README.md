@@ -1,4 +1,4 @@
-# chatapp
+# shoppingapp
 
 A new Flutter project.
 
