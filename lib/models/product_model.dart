@@ -1,5 +1,6 @@
 class ProductModel {
   final int id;
+  final String userId;
   final String title;
   final num price;
   final String description;
@@ -7,8 +8,8 @@ class ProductModel {
   final String image;
   final RatingModel rating;
 
-  ProductModel(this.id, this.title, this.price, this.description, this.category,
-      this.image, this.rating);
+  ProductModel(this.id, this.title, this.price, this.description,
+      this.category, this.image, this.rating, this.userId);
 
   factory ProductModel.fromJson(jsonData) {
     return ProductModel(
@@ -18,7 +19,8 @@ class ProductModel {
         jsonData['description'],
         jsonData['category'],
         jsonData['image'],
-        RatingModel.fromJson(jsonData['rating']));
+        RatingModel.fromJson(jsonData['rating']),
+        jsonData['userId']);
   }
 }
 
@@ -26,9 +28,9 @@ class RatingModel {
   final num rate;
   final int count;
 
-  RatingModel( this.rate,  this.count);
+  RatingModel(this.rate, this.count);
 
   factory RatingModel.fromJson(jsonData) {
-    return RatingModel( jsonData['rate'],  jsonData['count']);
+    return RatingModel(jsonData['rate'], jsonData['count']);
   }
 }

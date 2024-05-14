@@ -1,5 +1,3 @@
-
-
 import 'package:flutter/material.dart';
 import 'package:shoppingapp/helper/home_page_ui.dart';
 import 'package:shoppingapp/widgets/drawer_widget.dart';
