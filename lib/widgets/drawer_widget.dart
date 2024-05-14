@@ -7,7 +7,7 @@ class DrawerWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-        // width: 50,
+        
         backgroundColor: Color(0xFF041828),
         child: ListView(children: [
           DrawerHeader(
@@ -60,7 +60,7 @@ class DrawerWidget extends StatelessWidget {
               },
               child: ListTileWidget(
                 icon: Icons.favorite,
-                text: 'Favorite',
+                text: 'Favorites',
               )),
           SizedBox(
             height: 20,
