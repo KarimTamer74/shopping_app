@@ -1,5 +1,5 @@
-import 'package:chatapp/cubits/login_cubit/login_states.dart';
-import 'package:chatapp/helper/helper.dart';
+import 'package:shoppingapp/cubits/login_cubit/login_states.dart';
+import 'package:shoppingapp/helper/helper.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

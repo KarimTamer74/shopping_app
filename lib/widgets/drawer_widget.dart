@@ -1,4 +1,4 @@
-import 'package:chatapp/widgets/list_tile_widget.dart';
+import 'package:shoppingapp/widgets/list_tile_widget.dart';
 import 'package:flutter/material.dart';
 
 class DrawerWidget extends StatelessWidget {

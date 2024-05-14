@@ -1,7 +1,8 @@
 
-import 'package:chatapp/helper/home_page_ui.dart';
-import 'package:chatapp/widgets/drawer_widget.dart';
+
 import 'package:flutter/material.dart';
+import 'package:shoppingapp/helper/home_page_ui.dart';
+import 'package:shoppingapp/widgets/drawer_widget.dart';
 
 class ShoppingView extends StatelessWidget {
   ShoppingView({super.key});

@@ -1,10 +1,10 @@
-import 'package:chatapp/constants/constants.dart';
-import 'package:chatapp/cubits/login_cubit/login_cubit.dart';
-import 'package:chatapp/cubits/login_cubit/login_states.dart';
-import 'package:chatapp/helper/helper.dart';
-import 'package:chatapp/widgets/custom_submit.dart';
-import 'package:chatapp/widgets/custom_title.dart';
-import 'package:chatapp/widgets/custom_text_form_field.dart';
+import 'package:shoppingapp/constants/constants.dart';
+import 'package:shoppingapp/cubits/login_cubit/login_cubit.dart';
+import 'package:shoppingapp/cubits/login_cubit/login_states.dart';
+import 'package:shoppingapp/helper/helper.dart';
+import 'package:shoppingapp/widgets/custom_submit.dart';
+import 'package:shoppingapp/widgets/custom_title.dart';
+import 'package:shoppingapp/widgets/custom_text_form_field.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:modal_progress_hud_nsn/modal_progress_hud_nsn.dart';

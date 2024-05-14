@@ -1,5 +1,5 @@
-import 'package:chatapp/constants/constants.dart';
 import 'package:flutter/material.dart';
+import 'package:shoppingapp/constants/constants.dart';
 
 
 class OnBoardingView extends StatefulWidget {

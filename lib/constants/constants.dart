@@ -1,4 +1,4 @@
-import 'package:chatapp/models/onbording_model.dart';
+import 'package:shoppingapp/models/onbording_model.dart';
 import 'package:flutter/material.dart';
 
 const Color kBlackColor = Colors.black;

@@ -1,5 +1,5 @@
-import 'package:chatapp/models/product_model.dart';
-import 'package:chatapp/widgets/custom_card-widget.dart';
+import 'package:shoppingapp/models/product_model.dart';
+import 'package:shoppingapp/widgets/custom_card-widget.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 

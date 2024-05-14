@@ -1,5 +1,5 @@
-import 'package:chatapp/models/product_model.dart';
 import 'package:flutter/material.dart';
+import 'package:shoppingapp/models/product_model.dart';
 
 class CustomCard extends StatefulWidget {
   CustomCard({super.key, required this.product});
