@@ -15,7 +15,7 @@ class _OnBoardingViewState extends State<OnBoardingView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: kPrimaryColor.withOpacity(.5),
+        backgroundColor: kPrimaryColor,
         body: PageView.builder(
           itemCount: 3,
           controller: _controller,

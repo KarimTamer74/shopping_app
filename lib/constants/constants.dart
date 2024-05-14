@@ -13,8 +13,8 @@ List<OnBoardingModel> contents = [
   OnBoardingModel(
       image: 'assets/images/welcome-removebg-preview.png',
       title: 'Welcome 👐',
-      subtitle1: '   Welcome to our app               '
-          '                     We\'re excited to help you shop with us!',
+      subtitle1: '   Welcome to our app \n'
+          'We\'re excited to help you shop with us!',
       textOfButton: 'Next',
       scale: 1),
   OnBoardingModel(
