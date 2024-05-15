@@ -7,7 +7,6 @@ class DrawerWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-        
         backgroundColor: Color(0xFF041828),
         child: ListView(children: [
           DrawerHeader(
