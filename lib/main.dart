@@ -1,4 +1,5 @@
 import 'package:shoppingapp/cubits/login_cubit/login_cubit.dart';
+import 'package:shoppingapp/views/add_product.dart';
 import 'package:shoppingapp/views/login_view.dart';
 import 'package:shoppingapp/views/onboarding_view.dart';
 import 'package:shoppingapp/views/register_view.dart';
@@ -30,6 +31,7 @@ class ShoppingApp extends StatelessWidget {
           'LoginPage': (context) => LoginPage(),
           'RegisterPage': (context) => RegisterPage(),
           'ShoppingView': (context) => ShoppingView(),
+          'AddProduct': (context) => AddProduct(),
         },
         initialRoute: 'OnBoardingView',
         debugShowCheckedModeBanner: false,
