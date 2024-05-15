@@ -7,7 +7,9 @@ class ShoppingView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold(floatingActionButton: FloatingActionButton(onPressed: (){
+      Navigator.pushNamed(context, 'AddProduct');
+    }),
         drawer: DrawerWidget(),
         appBar: AppBar(
           iconTheme: IconThemeData(color: Colors.white),
