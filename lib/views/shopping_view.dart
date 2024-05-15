@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shoppingapp/helper/home_page_ui.dart';
+import 'package:shoppingapp/views/add_product.dart';
 import 'package:shoppingapp/widgets/drawer_widget.dart';
 
 class ShoppingView extends StatelessWidget {
@@ -7,9 +8,15 @@ class ShoppingView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(floatingActionButton: FloatingActionButton(onPressed: (){
-      Navigator.pushNamed(context, 'AddProduct');
-    }),
+    return Scaffold(
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {
+            Navigator.push(context, MaterialPageRoute(builder: (context) {
+              return AddProduct();
+            }));
+          },
+          child: Icon(Icons.add),
+        ),
         drawer: DrawerWidget(),
         appBar: AppBar(
           iconTheme: IconThemeData(color: Colors.white),
